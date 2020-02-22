@@ -1,0 +1,231 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    display: none;
+}
+h2{
+
+}
+h3{
+    margin: 0;
+    font-size: 18px;
+    line-height: 14px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+/** Базовая разметка макета */
+section.body{
+    width: 1020px;
+    margin: 0 auto;
+}
+header.header{
+    width: 100%;
+    height: 95px;
+    background-color: #323746;
+}
+section.header-container{
+    width: 100%;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+section.main-container{
+    width: 100%;
+    height: 600px;
+    background-color: #ea676b;
+}
+div.main-container{
+    width: 100%;
+    height: 594px;
+    background-color: #f06c64;
+}
+section.services{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+div.services{
+    width: 100%;
+    height: 494px;
+    background-color: #f2f2f2;
+}
+
+/** Поблочная разметка */
+
+/** Разметка блока header */
+div.logo{
+    align-self: flex-end;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    font-size: 1.53em;
+    transform: scale(1, 1.03);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+div.logo>span{color: #f06c64;}
+nav.navigation{
+    align-self: flex-end;
+    padding-bottom: 33px;
+    margin-right: 40px;
+    font-size: 0.74em;
+    transform: scale(1, 1.04);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav.navigation>a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 26px;
+    background: url("assets/dot.png") no-repeat 10px 4px;
+}
+nav.navigation>a:first-child{
+    padding-left: 26px;
+    background: none;
+}
+nav.navigation>a.active{
+    color: #f06c64;
+}
+nav.navigation>a:hover{
+    color: #f06c64;
+}
+
+/** разметка галереи */
+
+div.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.main-container>section.left{
+    display: flex;
+    align-items: center;
+    width: 112px;
+    height: 100%;
+}
+section.left>div{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+section.right{
+    display: flex;
+    align-items: center;
+    transform: scale(-1, 1);
+    width: 112px;
+    height: 100%;
+}
+section.right>div{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+section.gallery{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: calc(100% - 224px);
+}
+section.left>div>img{
+    padding-right: 12px;
+}
+section.right>div>img{
+    padding-right: 17px;
+}
+section.gallery>div.leftPhone{
+    height: 82%;
+    width: 527px;
+}
+section.gallery>div.rightPhone{
+    transform: rotate(90deg);
+    margin-top: -245px;
+    height: 82%;
+}
+section.gallery>div.leftPhone>img.phoneShadow{
+    opacity: 1;
+}
+section.gallery>div.rightPhone>img.phoneShadow{
+    opacity: 1;
+    transform: scale(-1, 1);
+    margin-top: -26px;
+}
+section.gallery>div.leftPhone>img{
+    position: absolute;
+}
+section.gallery>div.rightPhone>img{
+    position: absolute;
+}
+
+section.gallery>div.left-photo,
+section.gallery>div.right-photo {
+    position: absolute;
+    overflow: hidden;
+}
+section.gallery>div.left-photo {
+    width: 188px;
+    height: 333px;
+    margin: -13px 0px 0px 14px;
+}
+section.gallery>div.left-photo>img{
+    margin: -135px 0px 0px -14px;
+}
+section.gallery>div.right-photo {
+    width: 334px;
+    height: 189px;
+    margin: -15px 0px 0px 372px;
+}
+section.gallery>div.right-photo>img{
+    margin: -119px 0px 0px -124px;
+}
+
+
+
+/* Разметка "Сервисы" */
+div.services-wrapper{
+padding: 43px 30px 0px 40px;
+
+}
+div.services-wrapper>h2{
+    font-size: 30px;
+    line-height: 19px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+div.services-info{
+    font-size: 18px;
+    line-height: 31px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+}
+div.services-wrapper-items{
+    display: flex;
+    justify-content: ce;
+    padding: 46px 0px 0px 0px;
+}
+
+div.services-wrapper-items>section>div.services-item{
+    display: flex;
+    justify-content: flex-start;
+    width: 320px;
+    height: 123px;
+}
+
+div.services-item>div.service-item-col-2{
+    padding: 0px 0px 0px 20px;
+}
+div.services-item>div.service-item-col-2>p{
+    width: 219px;
+    height: 128px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    text-align: justify;
+}
