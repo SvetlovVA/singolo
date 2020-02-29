@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('Lato-Light.eot');
+  src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+       url('Lato-Light.svg#Lato-Light') format('svg'),
+       url('Lato-Light.ttf') format('truetype'),
+       url('Lato-Light.woff') format('woff'),
+       url('Lato-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

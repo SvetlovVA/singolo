@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('assets/fonts/Lato-Regular/Lato-Regular.eot');
+    src: url('assets/fonts/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg'),
+    url('assets/fonts/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+    url('assets/fonts/Lato-Regular/Lato-Regular.woff') format('woff'),
+    url('assets/fonts/Lato-Regular/Lato-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('assets/fonts/Lato-Light/Lato-Light.eot');
+    src: url('assets/fonts/Lato-Light/Lato-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Lato-Light/Lato-Light.svg#Lato-Light') format('svg'),
+    url('assets/fonts/Lato-Light/Lato-Light.ttf') format('truetype'),
+    url('assets/fonts/Lato-Light/Lato-Light.woff') format('woff'),
+    url('assets/fonts/Lato-Light/Lato-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('assets/fonts/Lato-Bold/Lato-Bold.eot');
+    src: url('assets/fonts/Lato-Bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg'),
+    url('assets/fonts/Lato-Bold/Lato-Bold.ttf') format('truetype'),
+    url('assets/fonts/Lato-Bold/Lato-Bold.woff') format('woff'),
+    url('assets/fonts/Lato-Bold/Lato-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('assets/fonts/Lato-Black/Lato-Black.eot');
+    src: url('assets/fonts/Lato-Black/Lato-Black.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Lato-Black/Lato-Black.svg#Lato-Black') format('svg'),
+    url('assets/fonts/Lato-Black/Lato-Black.ttf') format('truetype'),
+    url('assets/fonts/Lato-Black/Lato-Black.woff') format('woff'),
+    url('assets/fonts/Lato-Black/Lato-Black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Lato-Light, sans-serif;
+}
+h1{
+    display: none;
+}
+h2{
+    font-family: Lato-Black, sans-serif;
+    font-size: 30px;
+    line-height: 19px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+/** Базовая разметка макета */
+section.body{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+/* Секция портфолио*/
+section.portfolio{
+    width: 100%;
+    height: 870px;
+    background-color: #323746;
+}
+div.portfolio{
+    width: 100%;
+    height: 865px;
+    background-color: #2d303a;
+}
+div.portfolio-wrapper{
+    padding: 44px 30px 0px 40px;
+}
+div.portfolio-info{
+    font-size: 18px;
+    line-height: 32px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.005em;
+}
+ul.portfolio-nav-items{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+ul.portfolio-nav-items>li:first-child{
+    margin-left: 0;
+}
+ul.portfolio-nav-items>li{
+    font-family: Lato-Regular, sans-serif;
+    list-style-type: none;
+    margin: 10px 0 10px 10px;
+    padding: 1px 6px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767e9e;
+    font-weight: 400;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul.portfolio-nav-items>li.active{
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+ul.portfolio-nav-items>li:hover{
+    color: #dedede;
+    border: 1px solid #dedede;
+}
+
+div.portfolio-photo-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    padding: 9px 0px 0px 0px;
+    overflow: hidden;
+}
+div.portfolio-photo-col{
+    width: min-content;
+}
+div.portfolio-photo-col>img{
+    margin: 0px 20px 17px 0px;
+}
+
+
+
+/* Секция about us*/
+section.about-us{
+    width: 100%;
+    height: 734px;
+    background-color: #ffffff;
+}
+div.about-us{
+    width: 100%;
+    height: 728px;
+    background-color: #f2f2f2;
+}
+div.about-us-wrapper{
+    padding: 44px 30px 0px 40px;
+}
+div.about-us-info{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.011em;
+}
+
+section.about-us-people-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin: 45px 0px 0px 0px;
+}
+
+div.about-us-people-col{
+    width: min-content;
+    margin: 0px 20px 0px 0px;
+}
+
+div.about-us-people-col>img{
+
+}
+
+div.about-us-people-name{
+    font-size: 18px;
+    line-height: 25px;
+    color: #666d89;
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.001em;
+    margin: 11px 0px 6px 0px;
+    overflow: hidden;
+    height: 25px;
+}
+div.about-us-people-info{
+    width: 300px;
+    font-size: 11px;
+    line-height: 21px;
+    color: #767e9e;
+    font-family: Lato-Bold, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.034em;
+}
+div.social{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+div.social>img{
+    margin-right: 8px;
+    cursor: pointer;
+}
+div.social>img:hover{
+    opacity: 0.5;
+}
