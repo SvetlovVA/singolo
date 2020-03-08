@@ -49,6 +49,11 @@ body{
 h1{
     display: none;
 }
+
+div {
+    font-family: «Lato-Regular», sans-serif;
+
+}
 h2{
     font-family: Lato-Black, sans-serif;
     font-size: 30px;

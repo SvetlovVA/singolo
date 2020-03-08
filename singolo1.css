@@ -187,7 +187,6 @@ section.gallery>div.right-photo>img{
 /* Разметка "Сервисы" */
 div.services-wrapper{
 padding: 43px 30px 0px 40px;
-
 }
 div.services-wrapper>h2{
     font-size: 30px;
@@ -205,7 +204,7 @@ div.services-info{
 }
 div.services-wrapper-items{
     display: flex;
-    justify-content: ce;
+    justify-content: center;
     padding: 46px 0px 0px 0px;
 }
 
